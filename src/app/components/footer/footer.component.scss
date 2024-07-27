@@ -1,0 +1,19 @@
+@import "../../../color-variables.scss";
+@import "../../../styles.scss";
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.7rem 0;
+
+  background: $bg-first;
+
+  color: aliceblue;
+  font-size: 0.8rem;
+  font-family: $type-font-first;
+  font-weight: lighter;
+  img {
+    cursor: pointer;
+  }
+}

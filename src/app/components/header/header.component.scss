@@ -1,0 +1,7 @@
+@import "../../../color-variables.scss";
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $bg-color-first;
+}

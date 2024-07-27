@@ -1,0 +1,45 @@
+@import "../../../color-variables.scss";
+
+.btn {
+  border: none;
+  border-radius: 1.5rem;
+  padding: 20px 25px;
+  margin: 1rem;
+  cursor: pointer;
+  transition: 0.7s;
+
+  &.disabled {
+    opacity: 0.6;
+    color: rgb(0, 136, 255);
+  }
+  &.primary {
+    color: aliceblue;
+    background-color: $secondary-color;
+
+    font-size: 24px;
+    font-weight: bold;
+  }
+  &.secondary {
+    background: aliceblue;
+    color: $primary-text;
+
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+.btn:hover,
+.btn:focus {
+  &.primary {
+    outline: none;
+    background-color: rgb(52, 52, 52);
+    color: #f5f5f5;
+    box-shadow: rgba(66, 66, 66, 0.196) 0px 0px 15px 0px;
+    -webkit-box-shadow: inset 0px 0px 0px 4px #ffffffc6;
+  }
+  &.secondary {
+    outline: none;
+    background-color: rgb(184, 184, 184);
+    color: #1c1c1c;
+    box-shadow: rgba(255, 255, 255, 0.196) 0px 0px 15px 0px;
+  }
+}

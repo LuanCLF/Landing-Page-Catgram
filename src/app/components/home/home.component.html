@@ -1,0 +1,51 @@
+<app-header></app-header>
+<main>
+  <section class="main-section pad-70">
+    <div class="headline">
+      <span>conheça o Catgram</span>
+      <h1>A rede social para Gatos</h1>
+    </div>
+    <img src="image2.jpg" width="auto" height="400" />
+  </section>
+
+  <section class="benefit-section pad-70">
+    <div class="benefit-data">
+      <h2>53% dos domicílios</h2>
+    </div>
+    <p>
+      brasileiros possuem felinos e não sabem onde compartilhar os seus momentos
+      com eles.
+    </p>
+  </section>
+  <section class="cta-section">
+    <a href="https://catgram.onrender.com/">
+      <btn-primary btn-text=" ACESSAR CATGRAM "> </btn-primary>
+    </a>
+  </section>
+  <newsletter-form></newsletter-form>
+  <section class="section-screenshot margin-16">
+    <div>
+      <img src="catgram1.png" width="auto" height="400" />
+      <h4>Crie uma conta:</h4>
+      <p>
+        Registre cada momento único com fotos, você encontra também um feed de
+        todos os seus Catfriends
+      </p>
+    </div>
+
+    <div>
+      <img src="catgram2.png" width="auto" height="400" />
+      <h4>Interaja com CatFriends:</h4>
+      <p>Seus comentários fazem a diferença para todos do Catgram!</p>
+    </div>
+  </section>
+  <a href="https://catgram.onrender.com/" class="btn-acess">
+    <btn-primary btn-text=" ACESSAR CATGRAM "> </btn-primary>
+  </a>
+  <section class="margin-16">
+    <div class="photos">
+      <carousel [images]="images"> </carousel>
+    </div>
+  </section>
+  <footerComponent></footerComponent>
+</main>
